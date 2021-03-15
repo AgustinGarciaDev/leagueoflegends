@@ -1,0 +1,45 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.hero {
+  height: 90vh;
+  background-image: url("/img/Diseño\ sin\ título.png");
+  background-size: cover;
+}
+
+.tittle_hero {
+  font-weight: bold;
+  color: white;
+  padding-top: 3em;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.search_input {
+  width: 50vw;
+}
+
+.btn_search {
+  border-radius: 3px;
+  background-color: #d0a85c;
+  border: none;
+  width: 18vw;
+  height: 3vw;
+  margin: 2em;
+  box-shadow: 2px 2px 2px #d0a85c;
+  color: white;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+  flex-direction: column;
+}
